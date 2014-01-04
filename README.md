@@ -22,11 +22,11 @@ Implemented Methods
 
 --------------------
 
-### Element val and text
+### MD
 
-> **NOTE:** Methods to simplify the handling of jquery element val and text.
+> **NOTE:** Methods to simplify the handling of jquery.
 
-**dm("changeValTextTo", function(valText){return "";})** Simplify changes. Exemple:
+**md("changeValTextTo", function(valText){return "";})** Simplify changes. Exemple:
 
 ```
 /** change element val and text to "HELL0 W0RD" **/
