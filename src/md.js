@@ -7,7 +7,8 @@
 					method = 'val';
 				}
 				var $element = $(element);
-				$element[method](args[0]($element[method]()));
+				var valText = $element[method]();
+				$element[method](args[0](valText));
 				}
 		}
 		return this.each(functions[functionName]);
