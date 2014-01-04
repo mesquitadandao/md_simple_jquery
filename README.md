@@ -1,4 +1,4 @@
-DM Simple jQuery
+MD Simple jQuery
 ====================
 
 
