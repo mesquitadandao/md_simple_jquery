@@ -29,8 +29,8 @@ Implemented Methods
 **md("changeValTextTo", function(valText){return "";})** Simplify changes. Exemple:
 
 ```
-/** change element val and text to "HELL0 W0RD" **/
-var change = function(valTex){
+/** change Element val/text to "HELL0 W0RD" **/
+var change = function(valText){
 	return valText.gsub("o", 0).toUpperCase();
 }
 $("#input[value="hello word"]").md("changeValTextTo", change(valText));
@@ -41,8 +41,8 @@ $("#h1[text="hello word"]").md("changeValTextTo", change(valText));
 $("#div[text="hello word"]").md("changeValTextTo", change(valText));
 $("#strong[text="hello word"]").md("changeValTextTo", change(valText));
 
-/** change elements val and text to "hello word" **/
-var change = function(valTex){
+/** change Elements val/text to "hello word" **/
+var change = function(valText){
 	return valText.gsub(0, "O").toLowerCase();
 }
 $(".input[value="HELL0 W0RD"]").md("changeValTextTo", change(valText));
